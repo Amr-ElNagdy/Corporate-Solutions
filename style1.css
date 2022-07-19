@@ -1,0 +1,772 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  font-size: 90%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+html body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+/* HEADER NAV SECTION STARTS 
+=====================================================================================
+*/
+
+.custom-nav {
+  background-color: #e7902e;
+  padding: 25px 0 28px 0;
+}
+
+.navbtn {
+  background-color: transparent;
+  border: none;
+}
+
+.burger-menu {
+  font-size: 2em;
+  color: white;
+}
+
+#brand {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6em;
+}
+#brand span {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1px 3px 0 3px;
+  font-weight: 600;
+}
+
+.custom-nav ul a {
+  color: white;
+  font-size: 1.1em;
+  text-transform: capitalize;
+}
+.custom-nav ul a:hover {
+  color: black;
+}
+
+.btn {
+  text-transform: capitalize;
+}
+
+.btn-primary {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  color: black;
+  font-size: 1.2em;
+}
+
+.btn-primary:hover {
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+}
+/* HEADER BANNER SECTION STARTS 
+=====================================================================================
+*/
+
+.header-banner {
+  background-color: #e7902e;
+  height: 480px;
+}
+
+.header-banner h1 {
+  font-size: 4.5em;
+  color: white;
+}
+
+.header-banner h1 span {
+  text-decoration: underline;
+}
+
+/* SERVICES SECTION START 
+=====================================================================================
+*/
+
+.services-row {
+  background-color: rgba(231, 144, 46);
+}
+
+.serv1 {
+  width: 480px;
+  height: 400px;
+  background-image: url(notebook.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.serv1 article {
+  width: 480px;
+  height: 400px;
+  position: relative;
+  right: 11px;
+  background-color: rgba(30, 31, 88, 0.8);
+}
+
+.serv1 article h2 {
+  padding-top: 150px;
+  font-size: 3em;
+  color: white;
+}
+
+.serv1 article a {
+  color: white;
+}
+
+.serv2 {
+  width: 480px;
+  height: 400px;
+  background-image: url(hands.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.serv2 article {
+  width: 480px;
+  height: 400px;
+  position: relative;
+  right: 11px;
+  background-color: rgba(36, 35, 40, 0.8);
+}
+
+.serv2 article h2 {
+  padding-top: 150px;
+  font-size: 3em;
+  color: white;
+}
+
+.serv2 article a {
+  color: white;
+}
+
+.serv3 {
+  width: 480px;
+  height: 400px;
+  background-image: url(startup.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.serv3 article {
+  width: 480px;
+  height: 400px;
+  position: relative;
+  right: 11px;
+  background-color: rgba(29, 55, 104, 0.8);
+}
+
+.serv3 article h2 {
+  padding-top: 150px;
+  font-size: 3em;
+  color: white;
+}
+
+.serv3 article a {
+  color: white;
+}
+
+.serv4 {
+  width: 480px;
+  height: 400px;
+  background-image: url(iphone.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.serv4 article {
+  width: 480px;
+  height: 400px;
+  position: relative;
+  right: 11px;
+  background-color: rgba(91, 110, 111, 0.8);
+}
+
+.serv4 article h2 {
+  padding-top: 150px;
+  font-size: 3em;
+  color: white;
+}
+
+.serv4 article a {
+  color: white;
+}
+
+.serv5 {
+  width: 480px;
+  height: 400px;
+  background-image: url(analysis.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.serv5 article {
+  width: 480px;
+  height: 400px;
+  position: relative;
+  right: 11px;
+  background-color: rgba(19, 138, 54, 0.8);
+}
+
+.serv5 article h2 {
+  padding-top: 150px;
+  font-size: 3em;
+  color: white;
+}
+
+.serv5 article a {
+  color: white;
+}
+
+.serv6 {
+  width: 480px;
+  height: 400px;
+  background-image: url(testing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.serv6 article {
+  width: 480px;
+  height: 400px;
+  position: relative;
+  right: 11px;
+  background-color: rgba(148, 104, 70, 0.8);
+}
+
+.serv6 article h2 {
+  padding-top: 150px;
+  font-size: 3em;
+  color: white;
+}
+
+.serv6 article a {
+  color: white;
+}
+/* PUSH TO PLAY SECTION 
+=====================================================================================
+*/
+
+.ptp {
+  background-image: url(tcep.png);
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+}
+
+#ptp-p1 {
+  
+  font-size: 1.2em;
+}
+
+#ptp-h2 {
+  font-size: 4em;
+}
+
+#ptp-p2 {
+ 
+  font-size: 1.2em;
+}
+
+#ptp-h4 {
+  padding-top: 200px;
+  font-size: 4em;
+  color: #e7902e;
+}
+
+#play-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 5em;
+  color: #e7902e;
+}
+
+.modal-content {
+    background-color: rgba(36, 35, 40, 0.7) !important;
+    border: 0px !important
+}
+
+#modal-btn-close {
+  background-color: transparent;
+  border: none;
+  font-size: 1.8em;
+  color: white;
+}
+
+.modal-title {
+  color: white;
+}
+
+.btn-close {
+  color: white;
+}
+
+.modal-header {
+    border: 0px !important
+}
+/* GET NOTIFIED SECTION 
+=====================================================================================
+*/
+
+.get-not-row {
+  height: 200px;
+  background-image: linear-gradient(to right, #119a8e, #37ed7d);
+  padding-top: 75px;
+}
+
+#get-not-h h2 {
+  font-size: 2.5em;
+}
+
+#get-not-input {
+  border: none;
+  padding-top: 7px;
+}
+
+#get-not-input input {
+  width: 500px;
+  height: 50px;
+  font-size: 3em;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #d5d5d5;
+}
+
+#get-not-input input::placeholder {
+  color: white;
+}
+
+#get-not-btn {
+  padding-top: 5px;
+}
+
+#get-not-btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  border: 2px solid white;
+  border-radius: 35px;
+  padding: 20px;
+}
+
+/* COMPANIES WORKED WITH 
+=====================================================================================
+*/
+
+.cww-sec {
+  height: 72vh;
+  background-color: white;
+}
+
+.cww-sec h2 {
+  font-size: 5em;
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+
+/* BOTTOM BANNER 
+    ===================================================================================== 
+*/
+
+.bot-banner {
+  background-image: linear-gradient(to bottom left, #f9bd58, #e78f2d);
+  height: 550px;
+}
+
+#bot-banner-inner1 h2 {
+  font-size: 11em;
+  color: white;
+}
+
+#bot-banner-inner1 h2 span {
+  text-decoration: underline;
+}
+
+#bot-banner-inner2 {
+  position: relative;
+  right: 10%;
+  bottom: 10%;
+  color: white;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+/*  FOOTER 
+=====================================================================================
+*/
+.footer-nav {
+  padding-bottom: 25px;
+}
+
+.footer-nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20PX;
+  padding-right: 25px;
+}
+
+.footer-nav ul li {
+list-style-type: none;
+margin-bottom: 10px;
+padding: 5px;
+border: 1px solid black;
+}
+
+.footer-nav ul li a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-contact {
+  padding-bottom: 10px;
+}
+
+.footer-contact p {
+  font-size: 1.2em;
+}
+
+#footer-btn a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.social-links {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.social-links-i {
+  font-size: 1.6em;
+  margin-bottom:35px ;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+/* MEDIA QUERIES 
+=====================================================================================
+*/
+@media (min-width: 1910px) {
+  .header-banner {
+    height: 940px;
+  }
+  .header-banner h1 {
+    font-size: 13em;
+  }
+}
+
+@media (min-width: 2440px){
+  .burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1418px) {
+  .btn-primary {
+    font-size: 1.05em;
+  }
+  #bot-banner-inner1 h2 {
+  font-size: 8em;
+  color: white;
+}
+#bot-banner-inner2 {
+  position: relative;
+  right: 10%;
+  bottom: 15%;
+  font-size: 2.3em;
+}
+}
+
+
+@media (min-width: 1418px) {
+  .custom-nav ul a {
+    font-size: 1.3em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ 
+  #brand {
+    font-size: 2.1em;
+  }
+  .header-banner {
+    height: 800px;
+  }
+
+  .header-banner h1 {
+    font-size: 10em;
+  }
+}
+
+@media (max-width: 1259px) {
+  #get-not-h h4 {
+    font-size: 1.3em;
+  }
+  #get-not-h h2 {
+    font-size: 2em;
+  }
+  #get-not-input input {
+    width: 450px;
+    height: 40px;
+    font-size: 2.5em;
+  }
+  #get-not-btn {
+    padding-top: 7px;
+  }
+  #get-not-btn a {
+    font-size: 1.5em;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 1259px) {
+  #get-not-input input {
+    width: 400px;
+    height: 35px;
+    font-size: 2.2em;
+  }
+  #get-not-btn {
+    padding-top: 5px;
+  }
+  #get-not-btn a {
+    font-size: 1.3em;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .burger-menu {
+    display: none;
+  }
+  .header-banner {
+    height: 600px;
+  }
+
+  .header-banner h1 {
+    font-size: 8em;
+  }
+}
+@media (max-width: 991px) {
+  #ptp-p1 {
+    padding-top: 75px;
+    font-size: 1.1em;
+  }
+  #ptp-h2 {
+    font-size: 3em;
+  }
+  #ptp-p2 {
+    padding-top: 0;
+    font-size: 1.2em;
+  }
+
+  #ptp-h4 {
+    padding-top: 75px;
+    font-size: 3.5em;
+    color: #e7902e;
+  }
+  .get-not-row {
+    height: 650px;
+  }
+  .cww-sec {
+    padding-bottom: 100px;
+  }
+  .cww-sec h2 {
+    font-size: 3em;
+  }
+  
+  .cww-logo {
+    padding-bottom: 70px;
+  }
+  #bot-banner-inner1 h2 {
+  font-size: 7em;
+}
+
+#bot-banner-inner2 {
+  right: 10%;
+  font-size: 2em;
+}
+
+@media (max-width: 790px){
+  .cww-sec {
+   height: 1500px;
+  }
+  .bot-banner {
+    height: 400px;
+  }
+  #bot-banner-inner1 h2 {
+  font-size: 4em;
+}
+
+#bot-banner-inner2 {
+  right: 10%;
+  font-size: 1.5em;
+}
+}
+@media only screen and (max-width: 991px) and (min-width: 791px) {
+  .cww-sec {
+    height: 135vh;
+  }
+}
+
+@media (max-width: 479px) {
+  .serv1 {
+    width: 428px;
+    height: 400px;
+  }
+
+  .serv1 article {
+    width: 428px;
+    height: 400px;
+  }
+
+  .serv2 {
+    width: 428px;
+    height: 400px;
+  }
+
+  .serv2 article {
+    width: 428px;
+    height: 400px;
+  }
+
+  .serv3 {
+    width: 428px;
+    height: 400px;
+  }
+
+  .serv3 article {
+    width: 428px;
+    height: 400px;
+  }
+
+  .serv4 {
+    width: 428px;
+    height: 400px;
+  }
+
+  .serv4 article {
+    width: 428px;
+    height: 400px;
+  }
+  .serv5 {
+    width: 428px;
+    height: 400px;
+  }
+
+  .serv5 article {
+    width: 428px;
+    height: 400px;
+  }
+  .serv6 {
+    width: 428px;
+    height: 400px;
+  }
+
+  .serv6 article {
+    width: 428px;
+    height: 400px;
+  }
+  .bot-banner {
+    height: 250px;
+  }
+  #bot-banner-inner1 h2 {
+  font-size: 3em;
+}
+
+#bot-banner-inner2 {
+  right: 10%;
+  font-size: 1.2em;
+  bottom: 5%;
+}
+}
+
+@media (max-width: 427px) {
+  .serv1 {
+    width: 320px;
+    height: 400px;
+  }
+
+  .serv1 article {
+    width: 320px;
+    height: 400px;
+  }
+
+  .serv2 {
+    width: 320px;
+    height: 400px;
+  }
+
+  .serv2 article {
+    width: 320px;
+    height: 400px;
+  }
+
+  .serv3 {
+    width: 320px;
+    height: 400px;
+  }
+
+  .serv3 article {
+    width: 320px;
+    height: 400px;
+  }
+
+  .serv4 {
+    width: 320px;
+    height: 400px;
+  }
+
+  .serv4 article {
+    width: 320px;
+    height: 400px;
+  }
+  .serv5 {
+    width: 320px;
+    height: 400px;
+  }
+
+  .serv5 article {
+    width: 320px;
+    height: 400px;
+  }
+  .serv6 {
+    width: 320px;
+    height: 400px;
+  }
+
+  .serv6 article {
+    width: 320px;
+    height: 400px;
+  }
+  #get-not-input input {
+    width: 300px;
+    height: 35px;
+    font-size: 2.2em;
+  }
+}
